@@ -1,6 +1,6 @@
 function changeColor() {
   var block = document.querySelector('.block');
-  var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16); // Генерация случайного цвета
+  var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
 
   block.style.background = randomColor;
 }
